@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <!-- CREATE -->
+    <changeSet id="202311181624" author="Thiago">
+        <createTable tableName="Drivers">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints unique="true" primaryKey="true" />
+            </column>
+
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="License" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="nif" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="car" type="varchar(255)">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="gain" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+        </createTable>
+    </changeSet>
+
+    <changeSet id="202311181644" author="Thiago">
+        <createTable tableName="Company">
+
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints unique="true" primaryKey="true" />
+            </column>
+
+            <column name="user_id" type="BIGINT">
+                <constraints nullable="false"
+                             foreignKeyName="use_id_fk"
+                             referencedTableName="users"
+                             referencedColumnNames="id"/>
+            </column>
+
+            <column name="name" type="varchar(255)">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="nif" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+             <column name="cars" type="varchar(500)">
+                <constraints nullable="false" unique="false"/>
+             </column>
+
+            <column name="drivers" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="weekly_earnings" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+        </createTable>
+    </changeSet>
+
+    <changeSet id="202311181624" author="Thiago">
+
+        <createTable tableName="cars">
+            <column name="id" type="BIGINT" autoIncrement="true">
+                <constraints unique="true" primaryKey="true" />
+            </column>
+
+            <column name="plate" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+
+            <column name="driver" type="varchar(255)">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+            <column name="earnings" type="INT">
+                <constraints nullable="false" unique="false"/>
+            </column>
+
+    </createTable>
+
+    </changeSet>
+
+
+
+</databaseChangeLog>
