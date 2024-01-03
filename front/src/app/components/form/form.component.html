@@ -1,0 +1,38 @@
+<mat-card>
+  <mat-toolbar>
+    <span>Cadastrar</span>
+  </mat-toolbar>
+
+  <form (ngSubmit)="submit()" [formGroup]="momentForm">
+
+    <table class="example-full-width" cellspacing="0">
+      <tr>
+        <td>
+          <mat-form-field class="example-full-width" appearance="outline">
+            <mat-label for="id">ID</mat-label>
+            <input matInput maxlength="2" formControlName="id">
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="example-full-width">
+            <mat-label for="nome">Nome</mat-label>
+            <input matInput type="text" formControlName="name">
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field class="example-full-width">
+            <mat-label for="nif">NIF</mat-label>
+            <input matInput maxlength="9" formControlName="nif">
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+
+    <mat-card-actions class="b-t-1">
+      <button mat-raised-button color="primary" (click)="reset()">Reset</button>
+      <button mat-raised-button color="primary" type="submit">Confirmar</button>
+    </mat-card-actions>
+
+  </form>
+
+</mat-card>

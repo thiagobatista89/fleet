@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa096ca0-a922-4f3b-9eeb-1fdc83eceeec" name="Changes" comment="">
+    <list default="true" id="4ea58a30-8f63-4475-9b3c-e126859280e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
@@ -50,6 +52,26 @@
       <change beforePath="$PROJECT_DIR$/../api/src/main/resources/messages/messages_es_ES.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/src/main/resources/messages/messages_pt_PT.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../api/src/test/java/com/fleet/api/ApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/main.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../front/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +81,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Liquibase Changelog" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -76,13 +100,10 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2YROElJDraS6hKLVpznWdl2RxoU" />
+  <component name="ProjectId" id="2YRTWhMZLnvk9pW279eV66BiHAV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -92,6 +113,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ApiApplication.executor": "Run",
+    "Maven.api [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -100,50 +124,88 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/thiagobatista/Documents/fleet/api ",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="FleetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.fleet.api.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ApiApplication">
+    <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fleet.api.ApiApplication" />
       <module name="api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fleet.api.FleetApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fleet.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fleet.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApiApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-af57353a" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fa096ca0-a922-4f3b-9eeb-1fdc83eceeec" name="Changes" comment="" />
-      <created>1700484815546</created>
+      <changelist id="4ea58a30-8f63-4475-9b3c-e126859280e2" name="Changes" comment="" />
+      <created>1700487425834</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700484815546</updated>
-      <workItem from="1700484816611" duration="202000" />
-      <workItem from="1700485369007" duration="240000" />
-      <workItem from="1700485724606" duration="1702000" />
+      <updated>1700487425834</updated>
+      <workItem from="1700487426928" duration="9115000" />
+      <workItem from="1700503530877" duration="3698000" />
+      <workItem from="1700659782277" duration="621000" />
+      <workItem from="1700670564298" duration="677000" />
+      <workItem from="1700674703490" duration="58000" />
+      <workItem from="1700689043615" duration="3469000" />
+      <workItem from="1700742981852" duration="6000" />
+      <workItem from="1700743751416" duration="4263000" />
+      <workItem from="1700776782503" duration="114000" />
+      <workItem from="1700778530638" duration="27000" />
+      <workItem from="1700783287436" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

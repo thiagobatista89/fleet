@@ -1,0 +1,13 @@
+[
+    { "id": 1, "name": "Ash", "nif": 1234 },
+    { "id": 1, "name": "Homem de Ferro", "nif": 1111 },
+    { "id": 2, "name": "Capitão América", "nif": 2222 },
+    { "id": 3, "name": "Thor", "nif": 3333 },
+    { "id": 4, "name": "Hulk", "nif": 4444 },
+    { "id": 5, "name": "Viúva Negra", "nif": 5555 },
+    { "id": 6, "name": "Pantera Negra", "nif": 6666 },
+    { "id": 7, "name": "Homem-Aranha", "nif": 7777 },
+    { "id": 8, "name": "Doutor Estranho", "nif": 8888 },
+    { "id": 9, "name": "Capitã Marvel", "nif": 9999 },
+    { "id": 10, "name": "Gavião Arqueiro", "nif": 1010 }
+]
